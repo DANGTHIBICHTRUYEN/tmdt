@@ -1,0 +1,122 @@
+﻿@model BachHoaOnline.Models.Hanghoa
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "Frontend";
+}
+
+@{
+    BACHHOA_ONLINEContext db = new BACHHOA_ONLINEContext();
+    List<Loai> listLoai = db.Loai.ToList();
+    List<Nhacungcap> listNCC = db.Nhacungcap.ToList();
+    List<Xuatxu> listXX = db.Xuatxu.ToList();
+    List<Thuonghieu> listTH = db.Thuonghieu.ToList();
+    List<Chitietloai> listCTL = db.Chitietloai.ToList();
+}
+
+<h2>Xóa sản phẩm</h2>
+
+@if (ViewBag.status != null)
+{
+    <span>@ViewBag.status</span>
+    <a asp-action="Index">Về lại trang danh sách</a>
+}
+else
+{
+    <h3>Bạn có chắc muốn xóa sản phẩm này?</h3>
+    <hr />
+    <div>
+        <dl class="dl-horizontal">
+            <dt>
+                Tên sản phẩm
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Tenhh)
+            </dd>
+            <dt>
+                Tên alias
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Tenalias)
+            </dd>
+            <dt>
+                Mô tả đơn vị
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Motadonvi)
+            </dd>
+            <dt>
+                Đơn giá
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Dongia)
+            </dd>
+            <dt>
+                Hình ảnh
+            </dt>
+            <dd>
+                <img src="~/images/@Model.Hinh" />
+            </dd>
+            <dt>
+                Ngày sản xuất
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Ngaysx)
+            </dd>
+            <dt>
+                Giảm giá
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Giamgia)
+            </dd>
+            <dt>
+                Số lần xem
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Solanxem)
+            </dd>
+            <dt>
+                Mô tả
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Mota)
+            </dd>
+            <dt>
+                Mô tả chi tiết loại
+            </dt>
+            <dd>
+                @listCTL.Where(x => x.Mactl == Model.Chitietloai).SingleOrDefault().Tenctl;
+            </dd>
+            <dt>
+                Loại sản phẩm
+            </dt>
+            <dd>
+                @listLoai.Where(x => x.Maloai == Model.Maloai).SingleOrDefault().Tenloai;
+            </dd>
+            <dt>
+                Nhà cung cấp
+            </dt>
+            <dd>
+                @listNCC.Where(x => x.Mancc == Model.Mancc).SingleOrDefault().Tenncc;
+            </dd>
+            <dt>
+                Thương hiệu
+            </dt>
+            <dd>
+                @listTH.Where(x => x.Math == Model.Math).SingleOrDefault().Tenth;
+            </dd>
+            <dt>
+                Xuất xứ
+            </dt>
+            <dd>
+                @listXX.Where(x => x.Maxx == Model.Maxx).SingleOrDefault().Tenxx;
+            </dd>
+        </dl>
+
+        <form asp-action="DoDelete">
+            <input type="hidden" asp-for="Mahh" />
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            <a asp-action="Index">Về lại trang danh sách</a>
+        </form>
+    </div>
+}

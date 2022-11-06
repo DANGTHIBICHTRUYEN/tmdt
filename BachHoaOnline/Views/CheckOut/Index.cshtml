@@ -1,0 +1,139 @@
+﻿@model BachHoaOnline.Models.Hoadon
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="~/vendors/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="~/vendors/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="~/vendors/themify-icons/themify-icons.css">
+<link rel="stylesheet" href="~/vendors/linericon/style.css">
+<link rel="stylesheet" href="~/vendors/nice-select/nice-select.css">
+<link rel="stylesheet" href="~/vendors/owl-carousel/owl.theme.default.min.css">
+<link rel="stylesheet" href="~/vendors/owl-carousel/owl.carousel.min.css">
+<link rel="stylesheet" href="~/vendors/nouislider/nouislider.min.css">
+
+<link rel="stylesheet" href="~/vendors/css/style.css">
+
+
+@{
+    BACHHOA_ONLINEContext db = new BACHHOA_ONLINEContext();
+    string email = HttpContextAccessor.HttpContext.Session.Get<string>("user");
+    var giohang = HttpContextAccessor.HttpContext.Session.Get<List<CartItem>>("gioHang");
+}
+
+<!--================Checkout Area =================-->
+<section class="checkout_area section-margin--small">
+    <div class="container">
+        <div class="billing_details">
+            <div class="row">
+                @if (giohang != null)
+                {
+                <div class="col-lg-8">
+                    @if (email != null)
+                    {
+                        Khachhang kh = db.Khachhang.Where(x => x.Email == email.Trim(' ')).SingleOrDefault();
+
+                        <h3>Thông tin hóa đơn</h3>
+                        <form class="row contact_form" action="CheckOut/DoCheckOut" method="post" novalidate="novalidate">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="col-md-6 form-group p_star">
+                                <label asp-for="Hoten" class="control-label">Họ tên</label>
+                                <input asp-for="Hoten" type="text" class="form-control" value="@kh.Hoten" />
+                                <span asp-validation-for="Hoten" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 form-group p_star">
+                                <label asp-for="Diachi" class="control-label">Địa chỉ</label>
+                                <input asp-for="Diachi" type="text" class="form-control" value="@kh.Diachi" />
+                                <span asp-validation-for="Diachi" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 form-group p_star">
+                                <label asp-for="Ghichu" class="control-label">Ghi chú</label>
+                                <input asp-for="Ghichu" class="form-control" />
+                                <span asp-validation-for="Ghichu" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 form-group p_star">
+                                <input asp-for="Cachthanhtoan" class="form-control"  value="Trực tiếp" hidden/>
+                            </div>
+                            <div class="col-md-6 form-group p_star">
+                                <input type="submit" value="Đặt hàng" class="btn btn-default" />
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        <h3>Bạn cần đăng nhập để có thể thực hiện thanh toán.</h3>
+                        <span>Bạn chưa đăng nhập.</span><br />
+                        <a href="/dang-nhap">Đăng nhập</a> 
+                        <span>hoặc </span>
+                        <a href = "/dang-ky"> Đăng ký.</a>
+                    }
+                </div>
+                    <div class="col-lg-4">
+                        <div class="order_box">
+                            <h2>Hóa đơn</h2>
+                            <ul class="list">
+                                <li><a href="#"><h4>Sản phẩm <span>Thành tiền</span></h4></a></li>
+                                @{
+                                    List<CartItem> carts = HttpContextAccessor.HttpContext.Session.Get<List<CartItem>>("gioHang");
+                                    float total = 0;
+                                    if (carts != null)
+                                    {
+                                        @foreach (var item in carts)
+                                        {
+                                            total += item.ThanhTien;
+                                            <li><a href="#">@item.Tensp <span class="middle">x @item.Soluong</span> <span class="last">@item.ThanhTien</span></a></li>
+                                        }
+                                    }
+                                }
+                            </ul>
+                            <ul class="list list_2">
+                                <li><a href="#">Tổng cộng <span>@total</span></a></li>
+                            </ul>
+
+                            @if (email != null)
+                            {
+                                <div class="text-center">
+                                    <a class="button button-paypal" href="@Url.Action("Paypal_Checkout","CheckOut")">Thanh toán với Paypal</a>
+                                </div>
+                                <div class="text-center">
+                                    <a class="button button-paypal" href="@Url.Action("Onepay","Onepay")">Thanh toán với Onepay</a>
+                                </div>
+                                <div class="text-center">
+                                    <a class="button button-paypal" href="@Url.Action("Onepay","Onepay")">Thanh toán COD</a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+                 else {
+                    <div class="col-md-12">
+                        <h3>Giỏ hàng rỗng</h3><br />
+                        <span>Bạn cần chọn sản phẩm vào giỏ.</span><br />
+                        <a href="/danh-muc-san-pham">Mua ngay.</a>
+                    </div>
+                 }
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Checkout Area =================-->
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<script src="~/vendors/jquery/jquery-3.2.1.min.js"></script>
+<script src="~/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="~/vendors/skrollr.min.js"></script>
+<script src="~/vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="~/vendors/nice-select/jquery.nice-select.min.js"></script>
+<script src="~/vendors/nouislider/nouislider.min.js"></script>
+<script src="~/vendors/jquery.ajaxchimp.min.js"></script>
+<script src="~/vendors/mail-script.js"></script>
+<script src="~/vendors/js/main.js"></script>
+
+<script>
+    $('#abc').hide();
+</script>

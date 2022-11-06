@@ -1,0 +1,91 @@
+﻿@model IEnumerable<BachHoaOnline.Models.Hoadon>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "Frontend";
+}
+@{ 
+    BACHHOA_ONLINEContext db = new BACHHOA_ONLINEContext();
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tài khoản
+            </th>
+            <th>
+                Trạng thái
+            </th>
+            <th>
+                Cách thanh toán
+            </th>
+            <th>
+                Ngày đặt
+            </th>
+            <th>
+                Ngày giao
+            </th>
+            <th>
+                Họ tên
+            </th>
+            <th>
+                Địa chỉ
+            </th>
+            <th>
+                Cách vận chuyển
+            </th>
+            <th>
+                Phí vận chuyển
+            </th>
+            <th>
+                Ghi chú
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @db.Khachhang.Where(x => x.Makh == item.Makh).SingleOrDefault().Email
+            </td>
+            <td>
+                @db.Trangthai.Where(x => x.Matrangthai == item.Matrangthai).SingleOrDefault().Tentrangthai
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cachthanhtoan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaydat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaygiao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hoten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diachi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cachvanchuyen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phivanchuyen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ghichu)
+            </td>
+            <td>
+                <a asp-action="Update" asp-route-id="@item.Mahd">Sửa</a><br />
+                <a asp-action="Delete" asp-route-id="@item.Mahd">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<div>
+    <a href="@Url.Action("Index","Administrator")">Về lại trang quản trị</a>
+</div>

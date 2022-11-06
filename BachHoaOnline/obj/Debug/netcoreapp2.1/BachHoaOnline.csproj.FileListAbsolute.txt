@@ -1,0 +1,187 @@
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.deps.json
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.runtimeconfig.json
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.runtimeconfig.dev.json
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.dll
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.pdb
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.Views.dll
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.Views.pdb
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.AssemblyInfoInputs.cache
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.AssemblyInfo.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorAssemblyInfo.cache
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorAssemblyInfo.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.TagHelpers.input.cache
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.TagHelpers.output.cache
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorCoreGenerate.cache
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Account\Create.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Account\Delete.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Account\Update.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Administrator\Error.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Administrator\Index.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\CheckOut\CheckOut.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\CheckOut\Index.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Index.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Login.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Register.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\AddToCart.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Search.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Shop.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\ShopFilter.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Order\Delete.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Order\Update.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Product\Update.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Frontend.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorTargetAssemblyInfo.cs
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.Views.pdb
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.dll
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.pdb
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.genruntimeconfig.cache
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.csproj.CopyComplete
+C:\Users\Administrator\Downloads\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\TMDT\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.dll
+E:\TMDT\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.pdb
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.deps.json
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.runtimeconfig.json
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.runtimeconfig.dev.json
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.dll
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.pdb
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.Views.dll
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.Views.pdb
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.csproj.AssemblyReference.cache
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.AssemblyInfoInputs.cache
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.AssemblyInfo.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.csproj.CoreCompileInputs.cache
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorAssemblyInfo.cache
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorAssemblyInfo.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.TagHelpers.input.cache
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.TagHelpers.output.cache
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorCoreGenerate.cache
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Account\Create.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Account\Delete.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Account\Update.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Administrator\Error.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Administrator\Index.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\CheckOut\CheckOut.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\CheckOut\Index.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Index.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Login.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Register.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\AddToCart.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Search.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Shop.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\ShopFilter.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Order\Delete.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Order\Index.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Order\Update.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Product\Create.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Product\Delete.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Product\Update.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Frontend.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorTargetAssemblyInfo.cache
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorTargetAssemblyInfo.cs
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.Views.pdb
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.dll
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.pdb
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.genruntimeconfig.cache
+D:\Study\Bài tập linh tinh\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.csproj.CopyComplete
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.deps.json
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.runtimeconfig.json
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.runtimeconfig.dev.json
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.dll
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.pdb
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.Views.dll
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\bin\Debug\netcoreapp2.1\BachHoaOnline.Views.pdb
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.csproj.AssemblyReference.cache
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.AssemblyInfoInputs.cache
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.AssemblyInfo.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.csproj.CoreCompileInputs.cache
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorAssemblyInfo.cache
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorAssemblyInfo.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.TagHelpers.input.cache
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.TagHelpers.output.cache
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorCoreGenerate.cache
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Account\Create.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Account\Delete.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Account\Update.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Administrator\Error.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Administrator\Index.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\CheckOut\CheckOut.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\CheckOut\Index.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Index.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Login.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Register.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\AddToCart.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Search.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\Shop.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Home\ShopFilter.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Order\Delete.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Order\Update.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Product\Update.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Frontend.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorTargetAssemblyInfo.cache
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.RazorTargetAssemblyInfo.cs
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.Views.pdb
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.dll
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.pdb
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.genruntimeconfig.cache
+C:\Users\misad\Downloads\BachHoaOnline-master (1)\BachHoaOnline-master\BachHoaOnline\obj\Debug\netcoreapp2.1\BachHoaOnline.csproj.CopyComplete

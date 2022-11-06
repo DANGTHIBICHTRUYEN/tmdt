@@ -1,0 +1,267 @@
+﻿@model BachHoaOnline.Models.Hanghoa
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor;
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<link rel="stylesheet" href="~/vendors/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="~/vendors/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="~/vendors/themify-icons/themify-icons.css">
+<link rel="stylesheet" href="~/vendors/linericon/style.css">
+<link rel="stylesheet" href="~/vendors/nice-select/nice-select.css">
+<link rel="stylesheet" href="~/vendors/owl-carousel/owl.theme.default.min.css">
+<link rel="stylesheet" href="~/vendors/owl-carousel/owl.carousel.min.css">
+
+<link rel="stylesheet" href="~/vendors/css/style.css">
+
+<meta property="og:title" content="@Model.Tenhh" />
+<meta property="og:description" content="@Model.Mota" />
+<meta property="og:image" content="https://@Context.Request.Host/images/@Model.Hinh" />
+
+@{ 
+    BACHHOA_ONLINEContext db = new BACHHOA_ONLINEContext();
+    Loai loai = db.Loai.Where(x => x.Maloai == Model.Maloai).SingleOrDefault();
+    Chitietloai ctl = db.Chitietloai.Where(x => x.Mactl == Model.Chitietloai).SingleOrDefault();
+}
+
+<!--================Single Product Area =================-->
+<div class="product_image_area">
+    <div class="container">
+        <div class="row s_product_inner">
+            <div class="col-lg-6" style="text-align:center;">
+                <img class="img-fluid" src="~/images/@Model.Hinh" alt="" style="width:150%;">
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+                <div class="s_product_text">
+                    <span class="product-name" hidden><a>@Model.Tenhh</a></span>
+                    <h3>@Model.Tenhh</h3>
+                    <h2>@{float dg = (float)(Model.Dongia - (Model.Dongia * Model.Giamgia / 100));}@dg</h2>
+                    <ul class="list">
+                        <li><a class="active" href="#"><span>Loại sản phẩm </span> : @loai.Tenloai - @ctl.Tenctl</a></li>
+                    </ul>
+                    <div id="fb-root"></div>
+                    <div class="fb-share-button"
+                         data-href="https://@Context.Request.Host@Context.Request.Path"
+                         data-layout="button_count">
+                    </div>
+                    <p>
+                        @Model.Mota
+                    </p>
+                    <div class="product_count">
+                        <label for="qty">Số lượng:</label>
+                        <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+                                class="increase items-count" type="button">
+                            <i class="ti-angle-left"></i>
+                        </button>
+                        <input type="text" name="qty" id="sst" size="2" maxlength="12" value="1" title="Quantity:" class="input-text qty">
+                        <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) && sst > 0 ) result.value--;return false;"
+                                class="reduced items-count" type="button">
+                            <i class="ti-angle-right"></i>
+                        </button>
+                        <a class="button primary-btn add-to-cart" style="cursor:pointer">Thêm vào giỏ</a>
+                    </div>
+                    <div class="card_area d-flex align-items-center">
+                        <a class="icon_btn" href="#"><i class="lnr lnr lnr-diamond"></i></a>
+                        <a class="icon_btn" href="#"><i class="lnr lnr lnr-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================End Single Product Area =================-->
+<!--================Product Description Area =================-->
+<section class="product_description_area">
+    <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active show" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review"
+                   aria-selected="true">Nhận xét</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            @{
+                List<Nhanxet> liNhanXet = db.Nhanxet.Where(x => x.Mahh == Model.Mahh).ToList();
+            }
+            <div class="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row total_rate">
+                            @{
+                                int rating = 0;
+                                if (liNhanXet != null && liNhanXet.Count != 0)
+                                {
+                                    rating = (int)Math.Ceiling((decimal)liNhanXet.Average(x => x.Rating));
+                                }
+                            }
+                            <div class="col-6">
+                                <div class="box_total">
+                                    <h5>Tổng quan</h5>
+                                    @if (liNhanXet != null)
+                                    {
+                                        <h4>@rating</h4>
+                                        <h6>(@liNhanXet.Count Nhận xét)</h6>
+                                    }
+                                    else
+                                    {
+                                        <h4>0</h4>
+                                        <h6>(0 Nhận xét)</h6>
+                                    }
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="rating_list">
+                                    @if (liNhanXet != null)
+                                    {
+                                        <h3>Dựa trên @liNhanXet.Count nhận xét</h3>
+                                        <ul class="list">
+                                            <li>
+                                                <a href="#">
+                                                    @rating Star
+                                                    @for (int i = 0; i < rating; ++i)
+                                                    {
+                                                        <i class="fa fa-star"></i>
+                                                    }
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    }
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review_list">
+                            @if (liNhanXet != null)
+                            {
+                                foreach (var nx in liNhanXet)
+                                {
+                                    Khachhang kh = db.Khachhang.Where(x => x.Makh == nx.Makh).SingleOrDefault();
+                                    List<Hotro> liHoTro = db.Hotro.Where(x => x.Manx == nx.Manx).ToList();
+                                    <div class="review_item">
+                                        <div class="media">
+                                            <div class="d-flex" style="width: 70px; height: 70px; background-color:darkgrey; margin: 10px 10px;">
+
+                                            </div>
+                                            <div class="media-body">
+                                                <h4>@kh.Hoten</h4>
+                                                <h5>@nx.Ngaygui</h5>
+                                                <a class="reply_btn" href="#">Trả lời</a>
+                                                @for (int i = 0; i < nx.Rating; ++i)
+                                                {
+                                                    <i class="fa fa-star"></i>
+                                                }
+                                            </div>
+                                        </div>                                      
+                                        <p>
+                                            @nx.Noidung
+                                        </p>
+                                    </div>
+                                    @if (liHoTro != null)
+                                    {
+                                        foreach (var ht in liHoTro)
+                                        {
+                                            Nhanvien nv = db.Nhanvien.Where(x => x.Manv == ht.Manv).SingleOrDefault();
+                                            <div class="review_item reply">
+                                                <div class="media">
+                                                    <div class="d-flex">
+                                                        <img src="img/product/review-2.png" alt="">
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4>@nv.Hoten</h4>
+                                                        <h5>@ht.Ngaygui</h5>
+                                                        <a class="reply_btn" href="#">Trả lời</a>
+                                                    </div>
+                                                </div>
+                                                <p>
+                                                    @ht.Noidung
+                                                </p>
+                                            </div>
+                                        }
+
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="review_box">
+                            @if (HttpContextAccessor.HttpContext.Session.Get<string>("user") != null)
+                            {
+                                Khachhang kh = db.Khachhang.Where(x => x.Email == HttpContextAccessor.HttpContext.Session.Get<string>("user")).SingleOrDefault();
+                                <h4>Nhận xét</h4>
+                                <p>Chấm điểm:</p>
+                                <select id="Rating">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                                <form action="#/" class="form-contact form-review mt-3">
+                                    <div class="form-group">
+                                        <input class="form-control" name="Mahh" id="Mahh" type="text" value="@Model.Mahh" hidden>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" name="Makh" id="Makh" type="text" value="@kh.Makh" hidden>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" name="Ngaygui" id="Ngaygui" type="text" value="@DateTime.Now" hidden>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control different-control w-100" name="Noidung" id="Noidung" cols="30" rows="5" placeholder="Nhập nhận xét"></textarea>
+                                    </div>
+                                    <div class="form-group text-center text-md-right mt-3">
+                                        <button type="submit" class="button button--active button-review" id="nhanxet">Đăng ngay</button>
+                                    </div>
+                                </form>
+                            }
+                            else
+                            {
+                                <h4> Bạn cần đăng nhập để có thể nhan xet.</h4>
+                                <span> Bạn chưa đăng nhập.</span><br/>
+                                <a href = "/dang-nhap" > Đăng nhập </a>
+                                <span> hoặc </span>
+                                <a href = "/dang-ky" > Đăng ký.</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Product Description Area =================-->
+
+<script src="~/vendors/jquery/jquery-3.2.1.min.js"></script>
+<script src="~/vendors/skrollr.min.js"></script>
+<script src="~/vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="~/vendors/jquery.ajaxchimp.min.js"></script>
+<script src="~/vendors/mail-script.js"></script>
+
+<script>
+    $('.category-list').hide();
+</script>
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
+    $("#nhanxet").click(function () {
+        var review = { Mahh: parseInt($("#Mahh").val()), Makh: parseInt($("#Makh").val()), Manx: 0, Noidung: $("#Noidung").val(), Rating: 5, Ngaygui: null, Rating: parseInt($("#Rating").val()) };
+        var nx = JSON.stringify(review);
+        $.ajax({
+            url: "/Customer/Review",
+            data: {nhanxet: nx},
+            success: function (res) {
+                location.reload();
+            }
+        });
+    });
+</script>

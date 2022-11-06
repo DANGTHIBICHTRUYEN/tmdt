@@ -1,0 +1,86 @@
+﻿@model BachHoaOnline.Models.Hoadon
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "Frontend";
+    BACHHOA_ONLINEContext db = new BACHHOA_ONLINEContext();
+}
+
+<h2>Xóa hóa đơn</h2>
+
+<h3>Bạn có chắc muốn xóa hóa đơn này?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tài khoản
+        </dt>
+        <dd>
+            @db.Khachhang.Where(x => x.Makh == Model.Makh).SingleOrDefault().Email
+        </dd>
+        <dt>
+            Trạng thái
+        </dt>
+        <dd>
+            @db.Trangthai.Where(x => x.Matrangthai == Model.Matrangthai).SingleOrDefault().Tentrangthai
+        </dd>
+        <dt>
+            Cách thanh toán
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cachthanhtoan)
+        </dd>
+        <dt>
+            Ngày đặt
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ngaydat)
+        </dd>
+        <dt>
+            Ngày giao
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ngaygiao)
+        </dd>
+        <dt>
+            Họ tên
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Hoten)
+        </dd>
+        <dt>
+            Địa chỉ
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Diachi)
+        </dd>
+        <dt>
+            Cách vận chuyển
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cachvanchuyen)
+        </dd>
+        <dt>
+            Phí vận chuyển
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Phivanchuyen)
+        </dd>
+        <dt>
+            Ghi chú
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ghichu)
+        </dd>
+    </dl>
+    
+    <form asp-action="DoDelete">
+        <input type="hidden" asp-for="Mahd" />
+        <input type="submit" value="Xóa" class="btn btn-default" /> |
+        <a asp-action="Index">Về lại trang danh sách</a>
+    </form>
+    @if (ViewBag.status != null)
+    {
+        <span>@ViewBag.status</span>
+    }
+</div>
